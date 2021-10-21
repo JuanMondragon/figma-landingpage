@@ -5,7 +5,7 @@ import Footer from '../components/section5/footer'
 
 export default function Home() {
   return (
-    <div className="flex flex-col  min-h-screen no-scrollbar overflow-x-hidden overflow-hidden ">
+    <div className="flex flex-col  min-h-screen   ">
       <Head>
         <title>Your Online Record Store</title>
         <link rel="icon" href="/favicon.ico" />
