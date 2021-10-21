@@ -8,7 +8,7 @@ import { Header } from './header';
 
 function Layout() {
     return (
-        <div className="">
+        <div className="overflow-x-hidden overflow-hidden">
         <Header/>
         <Hero/>
         <Cards/>
