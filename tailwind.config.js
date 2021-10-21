@@ -61,11 +61,15 @@ module.exports = {
   plugins: [
     plugin(function({ addUtilities }) {
       const newUtilities = {
-        '.no-scrollbar::-webkit-scrollbar' :{
-          'display': 'none',
-         ' -ms-overflow-style': 'none',  /* IE and Edge */
-          'scrollbar-width': 'none',
-        },
+      
+        '.no-scrollbar':{'-webkit-scrollbar' : 'none','-ms-overflow-style': 'none', 'scrollbar-width': 'none' } ,
+          
+
+         
+          
+        
+          
+          
        
       }
 
